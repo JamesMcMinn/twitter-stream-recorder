@@ -24,7 +24,7 @@ The stream recorded has a number of paramaters, all of which are optional depend
     -host="localhost"   The hostname to dial to.
     -port=8053          Port to dial on.
 
-###Example Usage
+### Example Usage
 The following example connects to a machine called juvented on a non-default port, specifies a directory
 to store the tweets and enables compression.
 
