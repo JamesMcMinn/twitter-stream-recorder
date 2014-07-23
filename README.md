@@ -17,7 +17,7 @@ the binary in your current directory.
 
 
 ## Usage
-The stream recorded has a number of paramaters, all of which are optional depending on your setup.
+The stream recorded has a number of parameters, all of which are optional depending on your setup.
 
     -compress=true      Perform gzip compression before writing to disk.
     -dir="./"           Path to store downloaded tweets.
@@ -30,6 +30,6 @@ to store the tweets and enables compression.
 
     twitter-stream-recorder -host=juventud -port=56874 -dir=/local/jjnas01/Public/Commonwealth -compress=true
 
-To following disbales compression and writes files to the current directory:
+To following disables compression and writes files to the current directory:
 
     twitter-stream-recorder -host=juventud -port=56874 -dir=./ -compress=false
